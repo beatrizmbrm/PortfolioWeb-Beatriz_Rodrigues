@@ -27,7 +27,7 @@ body{
 
 header{
     padding: 25px 3%;
-    box-shadow: 0 0 5px 5px #0e0d0d;
+    box-shadow: 0 0 2px 2px #0e0d0d;
 }
 
 header a{
@@ -201,7 +201,7 @@ section .curriculo{
 
 
 .habilidades .conteudo{
-    background: #a771e8a4;
+    background: #a771e8;
     border-radius: 1rem;
     padding: 2rem;
     width: 80%;
@@ -241,7 +241,7 @@ section .curriculo{
     margin-bottom: 25px;
     padding: 10px;
     border-radius: 1rem;
-    background-color: #341c5293;
+    background-color: #422169d8;
     transition: 0.3s ease;
 }
 
@@ -273,7 +273,7 @@ section .curriculo{
 }
 section.portifolio{
     padding: 80px 4%;
-    box-shadow: 0 0 5px 5px #0e0d0d;
+    box-shadow: 0 0 2px 2px #0e0d0d;
     align-items: center;
 }
 
@@ -403,7 +403,7 @@ section .contato {
 footer {
     padding: 15px 4%;
     margin-top: 50px;
-    box-shadow: 0 0 5px 5px #0e0d0d;
+    box-shadow: 0 0 2px 2px #0e0d0d;
     display: flex;            
     justify-content: center;  
     align-items: center;     
@@ -504,6 +504,7 @@ footer img {
         margin-top: 20px;
         margin-bottom: 30px;
     }
+
     .portifolio{
         justify-content: center;
         display: flex;
