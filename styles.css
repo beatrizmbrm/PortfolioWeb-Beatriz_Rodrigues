@@ -8,6 +8,7 @@ body{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: rgb(0, 0, 0);
     height: 100vh;
+    text-decoration: none;
 }
 
 .interface{
@@ -62,7 +63,7 @@ header nav.menu ul li{
     cursor: pointer;
 }
 .menu_mob{
-    background: #423058;
+    background: #a771e8;
     height: 100vh;
     position: fixed;
     top: 0;
@@ -201,7 +202,7 @@ section .curriculo{
 
 
 .habilidades .conteudo{
-    background: #a771e8;
+    background: #a771e8a4;
     border-radius: 1rem;
     padding: 2rem;
     width: 80%;
@@ -220,7 +221,7 @@ section .curriculo{
 }
 
 .habilidades h3{
-    font-size: 30px;
+    font-size: 25px;
     color: #ffffff;
     margin-top: 0px;
     margin-bottom: 5px;
@@ -235,8 +236,8 @@ section .curriculo{
 }
 
 .habilidades .conteudo .bar{
-    width: 175px;
-    height: 175px;
+    width: 200px;
+    height: 200px;
     margin-top: 20px;
     margin-bottom: 25px;
     padding: 10px;
@@ -266,7 +267,7 @@ section .curriculo{
 }
 
 .habilidades .conteudo .bar .info h3{
-    font-size: 20px;
+    font-size: 25px;
     font-weight: 30px;
     margin-top: 20px;
     margin-left: 0.5rem;
@@ -300,7 +301,7 @@ section .portifolio .interface .conteudo_breve{
 
 .portifolio h3{
     color: #9d87b8;
-    font-size: 30px; 
+    font-size: 25px; 
     text-align: center;
     line-height: 10px;
     margin-bottom: 90px;
@@ -440,17 +441,16 @@ footer img {
     .topo .conteudo_breve{
         flex-direction: column-reverse;
         display: flex;
-        justify-content: space-around;
-        align-items: center;
     }
     .topo .botao_conheca{
         display: flex;
-        font-size: 7px;
         text-decoration: none;
-        align-items: center;
+        justify-content: center;
+
     }
     .topo .botao_conheca button{
-        padding: 8px 5px;
+        font-size: 15px;
+        padding: 10px 8px;
     }
     .logo img{
         width: 25vw;
@@ -467,6 +467,7 @@ footer img {
         font-size: 30px;    
     }
     .curriculo h2{
+        font-size: 40px;
         text-align: center;
         margin-top: 20px;
         margin-bottom: 5px;
@@ -500,6 +501,7 @@ footer img {
     }
 
     .habilidades h2 {
+        font-size: 40px;
         text-align: center;
         margin-top: 20px;
         margin-bottom: 30px;
@@ -513,6 +515,9 @@ footer img {
     .img_port{
         width: 300px;
         height: 300px;
+    }
+    .img_port .escurecer{
+        left: -5px;
     }
     .portifolio h3{
         font-size: 25px; 
